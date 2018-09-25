@@ -1,0 +1,40 @@
+{
+  "name": "elama-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon --exec babel-node src/index.js",
+    "start": "babel-node src/index.js"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.1.0",
+    "@babel/core": "^7.1.0",
+    "@babel/node": "^7.0.0",
+    "@babel/plugin-transform-runtime": "^7.1.0",
+    "@babel/preset-env": "^7.1.0",
+    "babel-plugin-import-graphql": "^2.6.2",
+    "eslint": "^5.6.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-node": "^7.0.1",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "nodemon": "^1.18.4"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.0.0",
+    "@koa/cors": "^2.2.2",
+    "apollo-server-koa": "^2.1.0",
+    "dotenv": "^6.0.0",
+    "graphql": "^14.0.2",
+    "graphql-tools": "^4.0.0",
+    "koa": "^2.5.3",
+    "koa-bodyparser": "^4.2.1",
+    "koa-graphql": "^0.7.5",
+    "koa-helmet": "^4.0.0",
+    "koa-router": "^7.4.0",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.2"
+  }
+}
